@@ -1,0 +1,57 @@
+body
+{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.stpage
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.intro-text
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 6rem;
+    margin-top: 15%;
+    margin-left: 36%;
+}
+
+#start
+{
+    margin-top: 1%;
+    margin-left: 36%;
+    border: 1px solid;
+    border-color: #005792;
+    font-size: 3rem;
+    background-color: #BD4291;
+    font-family: 'Ubuntu', sans-serif;
+    color: #F6F6E9;
+    cursor: pointer;
+    width: 30%;
+}
+
+.info
+{
+    display: none;
+    font-size: 2rem;
+    margin-top: 5%;
+    margin-left: 10%;
+    color: #8CC0DE;
+}
+
+.material-symbols-outlined 
+{
+    margin-left: 49%;
+    margin-top: 3%;
+    font-size: 5rem !important;
+    cursor: pointer;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+  
+}

@@ -1,0 +1,88 @@
+body
+{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.SolnGrid
+{
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 13%;
+    margin-top: 5%;
+    margin-left: 43%;
+    margin-bottom: 3%;
+}
+
+.stile
+{
+    aspect-ratio: 1;
+    border: 1px solid black;
+}
+
+.GameGrid
+{
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    width: 25%;
+    margin-left: 37%;
+}
+
+.gtile
+{
+    aspect-ratio: 1;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.infobar
+{   
+    border: 1px solid black;
+    margin-left: 70%;
+}
+
+#StartGame
+{
+    font-size: 1rem;
+}
+
+.winscreen
+{
+    display: none;
+    position: fixed; 
+    height: 100%; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); 
+    z-index: 2;
+}
+
+.moves
+{
+    margin-top: 12%;
+    margin-left: 35%;
+    padding-top: 3%;
+    background-color: #F6F6E9;
+    height: 10%;
+    width: 30%;
+    font-size: 2rem; 
+    text-align: center;
+}
+
+
+#retry
+{
+    margin-left: 35%;
+    height: 10%;
+    width: 30%;
+    border: 1px solid;
+    border-color: #005792;
+    font-size: 2rem;
+    background-color: #005792;
+    font-family: 'Ubuntu', sans-serif;
+    color: #F6F6E9;
+    cursor: pointer;
+}
